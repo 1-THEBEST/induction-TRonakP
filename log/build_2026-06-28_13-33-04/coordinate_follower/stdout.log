@@ -1,0 +1,28 @@
+running egg_info
+writing ../build/coordinate_follower/coordinate_follower.egg-info/PKG-INFO
+writing dependency_links to ../build/coordinate_follower/coordinate_follower.egg-info/dependency_links.txt
+writing requirements to ../build/coordinate_follower/coordinate_follower.egg-info/requires.txt
+writing top-level names to ../build/coordinate_follower/coordinate_follower.egg-info/top_level.txt
+reading manifest file '../build/coordinate_follower/coordinate_follower.egg-info/SOURCES.txt'
+writing manifest file '../build/coordinate_follower/coordinate_follower.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sweetthyme/ros2_ws/src/build/coordinate_follower/build
+creating /home/sweetthyme/ros2_ws/src/build/coordinate_follower/build/lib
+creating /home/sweetthyme/ros2_ws/src/build/coordinate_follower/build/lib/coordinate_follower
+copying coordinate_follower/__init__.py -> /home/sweetthyme/ros2_ws/src/build/coordinate_follower/build/lib/coordinate_follower
+running install
+running install_lib
+creating /home/sweetthyme/ros2_ws/src/install/coordinate_follower/lib/python3.10/site-packages/coordinate_follower
+copying /home/sweetthyme/ros2_ws/src/build/coordinate_follower/build/lib/coordinate_follower/__init__.py -> /home/sweetthyme/ros2_ws/src/install/coordinate_follower/lib/python3.10/site-packages/coordinate_follower
+byte-compiling /home/sweetthyme/ros2_ws/src/install/coordinate_follower/lib/python3.10/site-packages/coordinate_follower/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sweetthyme/ros2_ws/src/install/coordinate_follower/share/ament_index
+creating /home/sweetthyme/ros2_ws/src/install/coordinate_follower/share/ament_index/resource_index
+creating /home/sweetthyme/ros2_ws/src/install/coordinate_follower/share/ament_index/resource_index/packages
+copying resource/coordinate_follower -> /home/sweetthyme/ros2_ws/src/install/coordinate_follower/share/ament_index/resource_index/packages
+copying package.xml -> /home/sweetthyme/ros2_ws/src/install/coordinate_follower/share/coordinate_follower
+running install_egg_info
+Copying ../build/coordinate_follower/coordinate_follower.egg-info to /home/sweetthyme/ros2_ws/src/install/coordinate_follower/lib/python3.10/site-packages/coordinate_follower-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/sweetthyme/ros2_ws/src/build/coordinate_follower/install.log'

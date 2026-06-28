@@ -1,0 +1,38 @@
+[0.546s] Invoking command in '/home/sweetthyme/ros2_ws/src/coordinate_follower': PYTHONPATH=/home/sweetthyme/ros2_ws/src/build/coordinate_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sweetthyme/ros2_ws/src/install/coordinate_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/coordinate_follower build --build-base /home/sweetthyme/ros2_ws/src/build/coordinate_follower/build install --record /home/sweetthyme/ros2_ws/src/build/coordinate_follower/install.log --single-version-externally-managed install_data
+[0.768s] running egg_info
+[0.783s] writing ../build/coordinate_follower/coordinate_follower.egg-info/PKG-INFO
+[0.783s] writing dependency_links to ../build/coordinate_follower/coordinate_follower.egg-info/dependency_links.txt
+[0.784s] writing requirements to ../build/coordinate_follower/coordinate_follower.egg-info/requires.txt
+[0.784s] writing top-level names to ../build/coordinate_follower/coordinate_follower.egg-info/top_level.txt
+[0.814s] reading manifest file '../build/coordinate_follower/coordinate_follower.egg-info/SOURCES.txt'
+[0.814s] Traceback (most recent call last):
+[0.815s]   File "/home/sweetthyme/ros2_ws/src/coordinate_follower/setup.py", line 5, in <module>
+[0.815s]     setup(
+[0.815s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[0.815s]     return distutils.core.setup(**attrs)  # type: ignore[return-value]
+[0.815s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[0.815s]     return run_commands(dist)
+[0.815s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[0.815s]     dist.run_commands()
+[0.815s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1000, in run_commands
+[0.815s]     self.run_command(cmd)
+[0.815s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1107, in run_command
+[0.815s]     super().run_command(command)
+[0.815s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1019, in run_command
+[0.815s]     cmd_obj.run()
+[0.815s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[0.815s]     self.find_sources()
+[0.816s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[0.816s]     mm.run()
+[0.816s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 547, in run
+[0.816s]     self.prune_file_list()
+[0.816s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 163, in prune_file_list
+[0.816s]     super().prune_file_list()
+[0.816s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[0.816s]     base_dir = self.distribution.get_fullname()
+[0.816s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[0.816s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.816s]   File "/home/sweetthyme/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[0.816s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.816s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.835s] Invoked command in '/home/sweetthyme/ros2_ws/src/coordinate_follower' returned '1': PYTHONPATH=/home/sweetthyme/ros2_ws/src/build/coordinate_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sweetthyme/ros2_ws/src/install/coordinate_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/coordinate_follower build --build-base /home/sweetthyme/ros2_ws/src/build/coordinate_follower/build install --record /home/sweetthyme/ros2_ws/src/build/coordinate_follower/install.log --single-version-externally-managed install_data

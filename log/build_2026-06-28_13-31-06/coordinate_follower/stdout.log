@@ -1,0 +1,6 @@
+running egg_info
+writing ../build/coordinate_follower/coordinate_follower.egg-info/PKG-INFO
+writing dependency_links to ../build/coordinate_follower/coordinate_follower.egg-info/dependency_links.txt
+writing requirements to ../build/coordinate_follower/coordinate_follower.egg-info/requires.txt
+writing top-level names to ../build/coordinate_follower/coordinate_follower.egg-info/top_level.txt
+reading manifest file '../build/coordinate_follower/coordinate_follower.egg-info/SOURCES.txt'

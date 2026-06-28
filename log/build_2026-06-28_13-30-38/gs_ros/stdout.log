@@ -1,0 +1,8 @@
+running egg_info
+creating ../../build/gs_ros/gs_ros.egg-info
+writing ../../build/gs_ros/gs_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/gs_ros/gs_ros.egg-info/dependency_links.txt
+writing requirements to ../../build/gs_ros/gs_ros.egg-info/requires.txt
+writing top-level names to ../../build/gs_ros/gs_ros.egg-info/top_level.txt
+writing manifest file '../../build/gs_ros/gs_ros.egg-info/SOURCES.txt'
+reading manifest file '../../build/gs_ros/gs_ros.egg-info/SOURCES.txt'
