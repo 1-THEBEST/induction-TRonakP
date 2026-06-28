@@ -1,1 +1,0 @@
-Invoking command in '/home/sweetthyme/ros2_ws/src/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sweetthyme/ros2_ws/src/genesis_ros/topic_based_ros2_control -DCMAKE_INSTALL_PREFIX=/home/sweetthyme/ros2_ws/src/install/topic_based_ros2_control
