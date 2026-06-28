@@ -32,4 +32,4 @@ This package implements a class-based ROS 2 mission client node in Python. It pa
    cd ~/Auto/ros2_ws
    source /opt/ros/humble/setup.bash
    source install/setup.bash
-   ros2 run coordinate_follower mission_client --ros-args -p waypoint_file:=src/coordinate_follower/coordinate_follower/waypoints.txt
+   ros2 run coordinate_follower mission_client --ros-args -p waypoint_file:=src/coordinate_follower/waypoints.txt
