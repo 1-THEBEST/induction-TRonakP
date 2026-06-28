@@ -2,6 +2,7 @@ import os
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient
+from action_msgs.msg import GoalStatus
 from nav2_msgs.action import NavigateToPose
 from geometry_msgs.msg import PoseStamped
 
@@ -73,7 +74,6 @@ class MissionClient(Node):
             self.get_logger().info(
                 f'Mission complete: {self.successful_goals}/{self.total_waypoints} waypoints reached'
             )
-            # Gracefully spin down the node after layout completion
             return
 
         x, y = self.waypoints[self.current_index]
@@ -128,8 +128,8 @@ class MissionClient(Node):
         result = future.result()
         status = result.status
         
-        # Check standard Nav2 execution statuses (SUCCEEDED == 4)
-        if status == 4:
+        # Check standard Nav2 execution statuses via official message constants
+        if status == GoalStatus.STATUS_SUCCEEDED:
             self.get_logger().info(f'Waypoint {self.current_index + 1} SUCCEEDED')
             self.successful_goals += 1
         else:
